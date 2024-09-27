@@ -1,0 +1,12 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: msv-queuestorage
+
+# Variables para Azure Queue Storage
+azure:
+  queue-storage:
+    endpoint: https://azjavaspring24.queue.core.windows.net/
+    queueName: "azqueuemessage"
+    sasToken: "sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2024-12-31T10:41:16Z&st=2024-09-27T02:41:16Z&spr=https&sig=l9dnS7VhiIfRENdPIH6YF4i%2FaRoDE1mtD6DYrDUV1Lg%3D"
